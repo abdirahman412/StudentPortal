@@ -1,42 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Portal - Admas University</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-    </style>
+    <title>Student Portal Redirect</title>
+    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbyMG3p9FlyUA6mcIVGA36y-xqU_toB6M796lGz2D9U5-eyw_DWGcamE3wrBw2aj1-uA/exec">
+    <script>
+        window.location.href = "https://script.google.com/macros/s/AKfycbyMG3p9FlyUA6mcIVGA36y-xqU_toB6M796lGz2D9U5-eyw_DWGcamE3wrBw2aj1-uA/exec";
+    </script>
 </head>
 <body>
-    <iframe 
-        src="https://script.google.com/macros/s/AKfycbyMG3p9FlyUA6mcIVGA36y-xqU_toB6M796lGz2D9U5-eyw_DWGcamE3wrBw2aj1-uA/exec" 
-        width="100%" 
-        height="100%" 
-        allowfullscreen
-        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-    ></iframe>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const iframe = document.querySelector('iframe');
-            
-            // Attempt fullscreen (works on button click due to browser security)
-            document.addEventListener('click', function() {
-                iframe.requestFullscreen()
-                    .catch(err => {
-                        console.error('Fullscreen error:', err.message);
-                    });
-            });
-            
-            // Handle potential iframe loading errors
-            iframe.addEventListener('error', function() {
-                console.error('Iframe failed to load');
-                document.body.innerHTML = '<h1 style="text-align:center;padding:20%">Portal loading failed. Please try again later.</h1>';
-            });
-        });
-    </script>
+    <p>Redirecting to Student Portal... <a href="https://script.google.com/macros/s/AKfycbyMG3p9FlyUA6mcIVGA36y-xqU_toB6M796lGz2D9U5-eyw_DWGcamE3wrBw2aj1-uA/exec">Click here</a> if not redirected.</p>
 </body>
 </html>
